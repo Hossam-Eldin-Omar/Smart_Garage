@@ -9,6 +9,7 @@ This project utilizes a combination of sensors, an ATmega 32 microcontroller, an
 2-Parking Slot Monitoring:
   
   Ultrasonic Sensor: Deployed to measure the distance to objects in the parking slots, ensuring accurate detection of available and occupied spaces.
+  
   IR Sensors: Additional sensors positioned within the parking area to verify the status of each slot.
   
 3-Gate Control:
@@ -22,4 +23,5 @@ This project utilizes a combination of sensors, an ATmega 32 microcontroller, an
 5-Dual Control Modes:
   
   Automatic Mode: The system autonomously controls the entrance and exit gates based on sensor readings, providing a seamless and hands-free experience for users.
+  
   Voice Recognition Mode: Users can control the gates via voice commands through a Python application. This application communicates with the microcontroller using UART, enhancing the system's accessibility and convenience.
